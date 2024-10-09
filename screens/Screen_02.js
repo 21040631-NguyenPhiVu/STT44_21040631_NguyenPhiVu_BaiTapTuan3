@@ -14,16 +14,16 @@ import { useState } from "react";
 
 export default function App() {
   const [data, setData] = useState([
-    { key: "1", type: 'Vegetable', name: 'Apple', price: '28.00', image: require('../assets/Data/Image 101.png') },
-    { key: "2", type: 'Vegetable', name: 'Pearl', price: '28.00', image: require('../assets/Data/Image 107.png') },
-    { key: "3", type: 'Vegetable', name: 'Coconut', price: '28.00', image: require('../assets/Data/Image 105.png') },
-    { key: "4", type: 'Vegetable', name: 'Orange', price: '28.00', image: require('../assets/Data/Image 106.png') },
-    { key: "5", type: 'Vegetable', name: 'Apricot', price: '28.00', image: require('../assets/Data/Image 102.png') },
-    { key: "6", type: 'Vegetable', name: 'Avocado', price: '28.00', image: require('../assets/Data/Image 103.png') },
+    { key: "1", type: 'Vegetable', name: 'Apple', price: '28.00', image: require('../assets/Data/Image_101.png') },
+    { key: "2", type: 'Vegetable', name: 'Pearl', price: '28.00', image: require('../assets/Data/Image_107.png') },
+    { key: "3", type: 'Vegetable', name: 'Coconut', price: '28.00', image: require('../assets/Data/Image_105.png') },
+    { key: "4", type: 'Vegetable', name: 'Orange', price: '28.00', image: require('../assets/Data/Image_106.png') },
+    { key: "5", type: 'Vegetable', name: 'Apricot', price: '28.00', image: require('../assets/Data/Image_102.png') },
+    { key: "6", type: 'Vegetable', name: 'Avocado', price: '28.00', image: require('../assets/Data/Image_103.png') },
 
     { key: "7", type: 'Seafood', name: 'Lobster Alaska', price: '28.00', image: require('../assets/Data/lobster-alaska.png') },
     { key: "8", type: 'Seafood', name: 'King Crab', price: '28.00', image: require('../assets/Data/kingcrab.png') },
-    { key: "9", type: 'Seafood', name: 'Shrimp', price: '28.00', image: require('../assets/Data/Image 95.png') },
+    { key: "9", type: 'Seafood', name: 'Shrimp', price: '28.00', image: require('../assets/Data/Image_95.png') },
     { key: "10", type: 'Seafood', name: 'Squid', price: '28.00', image: require('../assets/Data/squid.png') },
     { key: "11", type: 'Seafood', name: 'Octopus', price: '28.00', image: require('../assets/Data/octopus.png') },
     { key: "12", type: 'Seafood', name: 'Oyster', price: '28.00', image: require('../assets/Data/oyster.png') },
@@ -53,13 +53,13 @@ export default function App() {
           <TouchableOpacity onPress={() => navigation.navigate("Screen_01")}>
             <Image
               style={styles.tabBarImage}
-              source={require("../assets/Data/Image 183.png")}
+              source={require("../assets/Data/Image_183.png")}
             />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate("Screen_03")}>
             <Image
               style={styles.tabBarImage}
-              source={require("../assets/Data/Image 182.png")}
+              source={require("../assets/Data/Image_182.png")}
             />
           </TouchableOpacity>
         </View>

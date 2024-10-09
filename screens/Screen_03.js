@@ -69,7 +69,7 @@ export default function App({ navigation }) {
           <TouchableOpacity onPress={() => navigation.navigate("Screen_02")}>
             <Image
               style={style.tabBarImage}
-              source={require("../assets/Data/Image 183.png")}
+              source={require("../assets/Data/Image_183.png")}
             />
           </TouchableOpacity>
         </View>
@@ -123,23 +123,23 @@ export default function App({ navigation }) {
                   </Text>
                   <View style={{ flexDirection: "row" }}>
                     <Image
-                      source={require("../assets/Data/Image 180.png")}
+                      source={require("../assets/Data/Image_180.png")}
                       style={style.startIcon}
                     />
                     <Image
-                      source={require("../assets/Data/Image 180.png")}
+                      source={require("../assets/Data/Image_180.png")}
                       style={style.startIcon}
                     />
                     <Image
-                      source={require("../assets/Data/Image 180.png")}
+                      source={require("../assets/Data/Image_180.png")}
                       style={style.startIcon}
                     />
                     <Image
-                      source={require("../assets/Data/Image 180.png")}
+                      source={require("../assets/Data/Image_180.png")}
                       style={style.startIcon}
                     />
                     <Image
-                      source={require("../assets/Data/Image 180.png")}
+                      source={require("../assets/Data/Image_180.png")}
                       style={style.startIcon}
                     />
                   </View>
@@ -154,7 +154,7 @@ export default function App({ navigation }) {
               >
                 <TouchableOpacity onPress={() => decrementQuantity(item.key)}>
                   <Image
-                    source={require("../assets/Data/Image 176.png")}
+                    source={require("../assets/Data/Image_176.png")}
                     style={style.subAddIcon}
                   />
                 </TouchableOpacity>
@@ -169,7 +169,7 @@ export default function App({ navigation }) {
                 </Text>
                 <TouchableOpacity onPress={() => updateQuantity(item.key)}>
                   <Image
-                    source={require("../assets/Data/Image 175.png")}
+                    source={require("../assets/Data/Image_175.png")}
                     style={style.subAddIcon}
                   />
                 </TouchableOpacity>

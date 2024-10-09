@@ -20,11 +20,11 @@ export default function App({ navigation }) {
           style={{ width: 150, height: 150, marginLeft: 215 }}
         />
         <Image
-          source={require("../assets/Data/Image 95.png")}
+          source={require("../assets/Data/Image_95.png")}
           style={{ width: 150, height: 150, marginLeft: 20, marginTop: -25 }}
         />
         <Image
-          source={require("../assets/Data/Image 97.png")}
+          source={require("../assets/Data/Image_97.png")}
           style={{ width: 150, height: 150, marginLeft: 200, marginTop: 30 }}
         />
       </View>
